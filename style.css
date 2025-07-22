@@ -177,4 +177,16 @@ body {
     background-color: #a58d50;
     color: #fff;
   }
+  @media (max-width: 768px) {
+    .menu .swiper-slide img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 0;
+    }
+  
+    .menu h1 {
+      font-size: 1.8rem;
+    }
+  }
   
